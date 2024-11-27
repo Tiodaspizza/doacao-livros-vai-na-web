@@ -1,6 +1,6 @@
 import Header from './components/Header/header';
 import './sass/global.scss';
-import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer';
 
 
 export default function App(){
@@ -12,4 +12,4 @@ export default function App(){
   )
 }
 
-// teste de deploy.
+
