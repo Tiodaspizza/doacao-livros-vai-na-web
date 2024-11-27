@@ -1,0 +1,76 @@
+.secquerodoar{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+
+   
+}
+
+.secquerodoar h2{
+    font-weight: 500;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.formulario{
+    border: 1px solid #005695;
+    border-radius: 8px;
+    height: 500px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:  1rem;
+    padding: 1rem;
+    margin-top: 4rem;
+
+}
+
+
+.frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #005695;
+    padding: 1rem;
+    
+}
+
+.formulario input {
+    
+    border:  1px solid #005695;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    color: black;
+   
+}
+
+.input::selection {
+    background-color: blue;
+    color: white;
+}
+
+.buttondoar{
+    height: 60px;
+    width: 150px;
+    background-color: #005695 ;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 768px){
+    .buttondoar{
+        height: 40px;
+        width: 120px;
+    }
+}

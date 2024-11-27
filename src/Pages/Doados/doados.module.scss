@@ -1,0 +1,57 @@
+.sectiondoados{
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.sectiondoados h2{
+    font-size: 30px;
+}
+
+.doados{
+    margin-top: 4rem;
+    display: flex;
+    margin-left: 4rem;
+    object-fit: cover;
+    flex-direction: column;
+    width: 200px;
+    border: 2px solid blue;
+    padding: 12px;
+    border-radius: 10%;
+}
+
+.textdoados{
+    margin-top: 0.80rem;
+}
+
+
+@media (max-width: 768px) {
+    .sectiondoados{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+    }
+
+    .sectiondoados h2{
+        text-align: center;
+        
+       
+    }
+
+
+    .doados{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 2rem auto;
+        
+
+    }
+}
