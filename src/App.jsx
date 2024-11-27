@@ -1,6 +1,7 @@
 import Header from './components/Header/header';
+import Footer from '../../Biblioteca/src/components/Footer/Footer';
 import './sass/global.scss';
-import Footer from './components/Footer/Footer.jsx';
+
 
 
 
@@ -14,3 +15,4 @@ export default function App(){
 }
 
 
+// teste
