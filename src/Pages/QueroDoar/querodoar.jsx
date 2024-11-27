@@ -1,5 +1,5 @@
 import styles from "./querodoar.module.scss"
-import frame from "../../assets/frame.png"
+import frame from "../../assets/Frame.png"
 
 
 function BookDonationForm() {
