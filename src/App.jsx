@@ -1,6 +1,6 @@
 import Header from './components/Header/header';
 import './sass/global.scss';
-import Footer from './components/Footer/f'
+import Footer from './components/Footer/footer'
 
 
 export default function App(){
