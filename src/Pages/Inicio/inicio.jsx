@@ -1,4 +1,4 @@
-import styles from "./inicio.module.scss";
+import styles from '../Inicio/Inicio.module.scss'
 import hero from "../../assets/hero.png";
 import card1 from "../../assets/card1.png"
 import card2 from "../../assets/card2.png"
