@@ -2,7 +2,7 @@ import styles from './Footer.module.scss';
 import facebook from "../../assets/facebook.png";
 import instagram from "../../assets/instagram.png";
 import linkedin from "../../assets/linkedin.png";
-
+import twittgit er from "../../assets/twitter.png"
 import youtube from "../../assets/youtube.png";
 
 
@@ -16,7 +16,7 @@ export default function Footer() {
                     <img src={facebook} alt="Facebook" />
                     <img src={instagram} alt="Instagram" />
                     <img src={linkedin} alt="LinkedIn" />
-                    
+                    <img src={twitter} alt="twitter" />
                     <img src={youtube} alt="YouTube" />
                 </div>
             </section>
