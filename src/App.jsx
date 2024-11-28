@@ -1,5 +1,5 @@
 import Footer from './components/Footer/footer';
-import Header from './components/Header/Header.jsx';
+import Header from './components/Header/header'
 
 
 import './sass/global.scss';
