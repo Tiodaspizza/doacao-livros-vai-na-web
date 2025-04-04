@@ -22,6 +22,7 @@
     border: 2px solid blue;
     padding: 12px;
     border-radius: 10%;
+    cursor: pointer;
 }
 
 .textdoados{
@@ -54,4 +55,12 @@
         
 
     }
+}
+
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
 }
